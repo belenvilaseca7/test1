@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: width 2s, height 4s;
+}
+
+.anterior:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.nuevo {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    animation-name: Belu;
+    animation-duration: 4s;
+}
+
+@keyframes Belu {
+    0% {background-color: red;}
+    10% {background-color: maroon;}
+    25% {background-color: yellow;}
+    35% {background-color: orange;}
+    50% {background-color: blue;}
+    75% {background-color: royalblue;}
+    90% {background-color: springgreen;;}
+    100% {background-color: green;}
+}
